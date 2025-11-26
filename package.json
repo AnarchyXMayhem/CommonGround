@@ -23,3 +23,11 @@
     "vite": "^5.0.8"
   }
 }
+import { initializeApp } from 'firebase/app';
+
+const firebaseConfig = {
+  apiKey: "...",
+  authDomain: "...",
+  projectId: "...",
+  // etc.
+};
